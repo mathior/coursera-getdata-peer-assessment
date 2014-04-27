@@ -1,5 +1,5 @@
-coursera-getdata-peer-assessment
-================================
+Coursera "Getting and Cleaning Data" Peer Assessment
+====================================================
 
 Scripts and data for the peer assessment in the coursera course "Getting and Cleaning Data".
 
