@@ -17,21 +17,20 @@ You should create one R script called run_analysis.R that does the following.
 Original dataset
 ----------------
 The "Human Activity Recognition Using Smartphones Data Set" is described here: 
-[http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones].
+<http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>
 An archive containing the data was provided here: 
-[https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip].
-In order to work correctly the run_analysis.R script has to be located inside
-the directory obtained by unpacking this archive.
+<https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>.
+In order to work correctly the run_analysis.R script has to be located inside the directory obtained by unpacking this archive.
 
 
 
 Files
 -----
-  - run_analysis.R
+  - run_analysis.R  
     The script performing the given task.
-  - README.md
+  - README.md  
     This file.
-  - CodeBook.md
+  - CodeBook.md  
     A description of the variables, data and transformation the sript does.
 
 
