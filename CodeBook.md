@@ -3,10 +3,10 @@ coursera-getdata-peer-assessment
 
 Datasets
 --------
-  1. human-activity-recognition-<timestamp>.txt  
+  1. human-activity-recognition-\<timestamp\>.txt  
      Contains all columns with mean and standard deviation variables from the
      original [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](Human Activity Recognition Using Smartphones Data Set) as well as subject id and activity label.
-  2. human-activity-recognition-average-<timestamp>.txt  
+  2. human-activity-recognition-average-\<timestamp\>.txt  
      Contains the averaged measurements for mean and standard deviation variables,
      average is computed by subject and activity.
 
@@ -32,14 +32,14 @@ These datasets are modified versions of the [https://d396qusza40orc.cloudfront.n
     characters '(),-' with underscores '_', then reduces multiple underscores
     to one and stripping trailing underscores.
   - The resulting dataset is available in the R workspace as a data frame named
-    "harDF", a serialized version in csv format is human-activity-recognition-<timestamp>.txt.
+    "harDF", a serialized version in csv format is human-activity-recognition-\<timestamp\>.txt.
   - A second data frame with the average of each variable for each activity and
     each subject is computed and available in the R workspace named "harAvgDF",
-    a serialized version in csv format is human-activity-recognition-average-<timestamp>.txt.
+    a serialized version in csv format is human-activity-recognition-average-\<timestamp\>.txt.
 
 Both datasets have the same column (feature) names. A description of the features as given in the features_info.txt file of the original dataset is included at the end of this file as a reference.
 
-The 88 selected mean and standard deviation features for both datasets are:
+The 86 selected mean and standard deviation features for both datasets are:
 
     tBodyAcc_mean_X
     tBodyAcc_mean_Y
@@ -130,6 +130,7 @@ The 88 selected mean and standard deviation features for both datasets are:
 
 The format of all these features is numerical.
 
+The additional columns are:
 
     subjectId
 Numerical subject id.
