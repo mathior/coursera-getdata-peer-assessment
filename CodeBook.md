@@ -1,5 +1,5 @@
-coursera-getdata-peer-assessment
-================================
+Codebook for Coursera "Getting and Cleaning Data" Peer Assessment
+=================================================================
 
 Datasets
 --------
